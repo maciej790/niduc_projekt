@@ -3,10 +3,6 @@
 #include <linux/init.h>
 #include <linux/slab.h>
 
-MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Twoje Imię");
-MODULE_DESCRIPTION("Test podstawowy alokacji pamięci: kmalloc, kcalloc, kmalloc_array");
-
 static int __init test_basic_allocation_init(void)
 {
     char *kmalloc_buf;
