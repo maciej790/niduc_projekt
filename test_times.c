@@ -4,10 +4,6 @@
 #include <linux/slab.h>
 #include <linux/time.h>
 
-MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Twoje Imię");
-MODULE_DESCRIPTION("Test wydajnościowy alokacji pamięci: kmalloc, kcalloc, kmalloc_array");
-
 #define NUM_ALLOCS 1000 // Liczba alokacji
 #define BLOCK_SIZE 256  // Rozmiar bloków w bajtach
 
