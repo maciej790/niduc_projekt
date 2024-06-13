@@ -4,10 +4,6 @@
 #include <linux/slab.h>
 #include <linux/jiffies.h>
 
-MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Twoje Imię");
-MODULE_DESCRIPTION("Test wydajności alokacji pamięci: kmalloc, kcalloc, kmalloc_array");
-
 #define NUM_ALLOC 1000000
 #define ALLOC_SIZE 32
 
