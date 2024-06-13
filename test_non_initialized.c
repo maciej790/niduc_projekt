@@ -3,10 +3,6 @@
 #include <linux/init.h>
 #include <linux/slab.h>
 
-MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Twoje Imię");
-MODULE_DESCRIPTION("Test nieinicjalizowanej pamięci: kmalloc, kcalloc, kmalloc_array");
-
 #define ALLOC_SIZE 1024
 
 static void test_kmalloc(void)
