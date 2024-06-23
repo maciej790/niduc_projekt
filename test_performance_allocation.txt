@@ -1,0 +1,5 @@
+Test wydajności alokacji pamięci
+kmalloc: 52 jiffies
+kcalloc: 45 jiffies
+kmalloc_array: 40 jiffies
+

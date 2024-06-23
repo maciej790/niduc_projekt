@@ -1,0 +1,7 @@
+Test kmalloc bez inicjalizacji
+Niezainicjalizowana pamięć (kmalloc): 
+Test kcalloc bez inicjalizacji
+Niezainicjalizowana pamięć (kcalloc): 0
+Test kmalloc_array bez inicjalizacji
+Niezainicjalizowana pamięć (kmalloc_array): 0
+

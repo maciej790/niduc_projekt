@@ -1,0 +1,30 @@
+Czas alokacji 10 bloków za pomocą kcalloc: 554 ns
+Czas zwalniania 10 bloków za pomocą kcalloc: 829 ns
+Zakończenie testu wydajnościowego alokacji pamięci: kcalloc
+Rozpoczęcie testu wydajnościowego alokacji pamięci: kmalloc_array
+Czas alokacji 10 bloków za pomocą kmalloc_array: 674 ns
+Czas zwalniania 10 bloków za pomocą kmalloc_array: 386 ns
+Zakończenie testu wydajnościowego alokacji pamięci: kmalloc_array
+Zakończenie testu wydajnościowego alokacji pamięci
+
+Czas alokacji 100 bloków za pomocą kcalloc: 12844 ns
+Czas zwalniania 100 bloków za pomocą kcalloc: 6313 ns
+Zakończenie testu wydajnościowego alokacji pamięci: kcalloc
+Rozpoczęcie testu wydajnościowego alokacji pamięci: kmalloc_array
+Czas alokacji 100 bloków za pomocą kmalloc_array: 10887 ns
+Czas zwalniania 100 bloków za pomocą kmalloc_array: 6154 ns
+Zakończenie testu wydajnościowego alokacji pamięci: kmalloc_array
+Zakończenie testu wydajnościowego alokacji pamięci
+
+Czas alokacji 1000 bloków za pomocą kcalloc: 147357 ns
+Czas zwalniania 1000 bloków za pomocą kcalloc: 188358 ns
+Zakończenie testu wydajnościowego alokacji pamięci: kcalloc
+Rozpoczęcie testu wydajnościowego alokacji pamięci: kmalloc_array
+Czas alokacji 1000 bloków za pomocą kmalloc_array: 173215 ns
+Czas zwalniania 1000 bloków za pomocą kmalloc_array: 94821 ns
+Zakończenie testu wydajnościowego alokacji pamięci: kmalloc_array
+Zakończenie testu wydajnościowego alokacji pamięci
+
+
+
+
